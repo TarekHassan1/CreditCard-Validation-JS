@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Register Form">
+    <meta name="author" content="TarekHassan">
+    <meta name="keywords" content="register sign up join us">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegisterForm</title>
+  </head>
+  <body> 
+    <form action=""> 
+      <label for="Name">CardHolder Name</label>
+      <input type="text" id="Name" placeholder="e.g Tarek Hassan">
+      <label for="Number">Card Number</label>
+      <input type="text" id="Number" placeholder="e.g 1234 0124 9428 1294">
+      <div class="date-cvc"> 
+        <div class="labels"> 
+          <label for="Date">EXP.DATE(MM/YY)</label>
+          <label for="cvc">CVC </label>
+        </div>
+        <input type="text" id="Date" placeholder="MM">
+        <input type="text" placeholder="YY">
+        <input type="text" id="cvc" placeholder="e.g 123">
+      </div>
+      <div class="fix-end"></div>
+      <button type="submit">Confirm </button>
+      <script src="script.js"> </script>
+    </form>
+  </body>
+</html>
